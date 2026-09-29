@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="570" viewBox="0 0 850 570" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC','Source Han Sans SC',sans-serif">
+  <rect x="0" y="0" width="850" height="570" fill="#ffffff"/>
+
+  <defs>
+    <marker id="axRe" markerWidth="12" markerHeight="12" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,3.5 L0,7 z" fill="#333333"/>
+    </marker>
+    <marker id="axIm" markerWidth="12" markerHeight="12" refX="10" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,3.5 L0,7 z" fill="#333333"/>
+    </marker>
+    <marker id="ar1" markerWidth="14" markerHeight="14" refX="11" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L11,4 L0,8 z" fill="#1f77b4"/>
+    </marker>
+    <marker id="ar2" markerWidth="14" markerHeight="14" refX="11" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L11,4 L0,8 z" fill="#2ca02c"/>
+    </marker>
+    <marker id="ar3" markerWidth="14" markerHeight="14" refX="11" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L11,4 L0,8 z" fill="#d62728"/>
+    </marker>
+  </defs>
+
+  <text x="36" y="40" font-size="22" font-weight="bold" fill="#111111">正弦波的相量（向量）表示 —— 复平面</text>
+
+  <line x1="70" y1="400" x2="735" y2="400" stroke="#333333" stroke-width="1.6" marker-end="url(#axRe)"/>
+  <line x1="150" y1="548" x2="150" y2="72" stroke="#333333" stroke-width="1.6" marker-end="url(#axIm)"/>
+  <text x="742" y="406" font-size="15" fill="#333333">Re（实轴）</text>
+  <text x="143" y="64" font-size="15" fill="#333333" text-anchor="end">Im（虚轴）</text>
+  <text x="138" y="419" font-size="15" fill="#333333" text-anchor="end">O</text>
+
+  <path d="M 220 400 A 70 70 0 0 0 185 339.4" fill="none" stroke="#2ca02c" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <path d="M 220 400 A 70 70 0 0 1 199.5 449.5" fill="none" stroke="#d62728" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="216" y="358" font-size="15" fill="#2ca02c">阻抗角 60°</text>
+  <text x="216" y="442" font-size="15" fill="#d62728">阻抗角 −45°</text>
+
+  <line x1="150" y1="400" x2="410" y2="400" stroke="#1f77b4" stroke-width="3" marker-end="url(#ar1)"/>
+  <line x1="150" y1="400" x2="254" y2="220" stroke="#2ca02c" stroke-width="3" marker-end="url(#ar2)"/>
+  <line x1="150" y1="400" x2="260" y2="510" stroke="#d62728" stroke-width="3" marker-end="url(#ar3)"/>
+
+  <circle cx="410" cy="400" r="4.5" fill="#1f77b4"/>
+  <circle cx="254" cy="220" r="4.5" fill="#2ca02c"/>
+  <circle cx="260" cy="510" r="4.5" fill="#d62728"/>
+
+  <text x="420" y="386" font-size="18" font-weight="bold" fill="#1f77b4">u1</text>
+  <text x="420" y="407" font-size="14" fill="#1f77b4">长度 2.0，阻抗角 0°</text>
+  <text x="420" y="428" font-size="15" font-weight="bold" fill="#1f77b4">顶点 (2.0, 0)</text>
+
+  <text x="266" y="200" font-size="18" font-weight="bold" fill="#2ca02c">u2</text>
+  <text x="266" y="221" font-size="14" fill="#2ca02c">长度 1.6，阻抗角 60°</text>
+  <text x="266" y="242" font-size="15" font-weight="bold" fill="#2ca02c">顶点 (0.8, 1.39)</text>
+
+  <text x="274" y="494" font-size="18" font-weight="bold" fill="#d62728">u3</text>
+  <text x="274" y="515" font-size="14" fill="#d62728">长度 1.2，阻抗角 −45°</text>
+  <text x="274" y="536" font-size="15" font-weight="bold" fill="#d62728">顶点 (0.85, −0.85)</text>
+</svg>
