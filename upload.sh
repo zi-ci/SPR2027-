@@ -1,4 +1,4 @@
 
 git add -A
 git commit -m "自动提交"
-git push origin mai
+git push origin main
